@@ -4,10 +4,10 @@ import pandas as pd # useful for dataframe generation
 import datetime as dt # useful for timestamp generation
 
 # Assign the praw.Reddit function to a variable
-reddit = praw.Reddit(client_id = '3ZNRdvAwE5ELKw', # enter your personal reddit client_id
-                     client_secret = '8yYbJjQoj4zQ3OGW3u1aW1JgAYM', # enter your personal reddit client_secret
-                     username = 'aryan_tyagi', # enter your personal reddit username
-                     password = '19apr1999', # enter your personal reddit password
+reddit = praw.Reddit(client_id = 'clientid', # enter your personal reddit client_id
+                     client_secret = 'clientsecret', # enter your personal reddit client_secret
+                     username = 'username', # enter your personal reddit username
+                     password = 'password', # enter your personal reddit password
                      user_agent = 'prawtutorialv1')
 
 # Accept the url of the reddit submission you wish to scrape
